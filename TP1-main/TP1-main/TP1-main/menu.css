@@ -1,0 +1,58 @@
+header ul {
+    padding-left: 2em;
+    padding-top: 2em;
+    margin-bottom: 0;
+    background-color: rgb(107, 15, 33);
+    display: flex;
+    justify-content: space-around;
+    align-self:center;
+    float: none;
+    }
+    
+    body{
+    background-color:rgb(180, 165, 165);
+    }
+
+    .menu{
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .menuarte{
+        display: inline-block;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        position: relative;
+    }
+
+    .menuarte:hover .menu-menu {
+        display: block;
+    }
+
+    .menu-menu{
+        background-color: rgb(180, 165, 165);
+        border: 1px solid #ccc;
+        border-radius: 0.3em;
+        box-shadow: 3px 3px 3px;
+        position: absolute;
+        justify-content: space-between;
+        flex-direction: column;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        display: none;
+    }
+
+    .menuu{
+        position: relative;
+        
+    }
+    
+
+    li{
+        padding: 0.2em;
+    }
+
+    .arte-plus, .arte-minus{
+        cursor: pointer;
+    }
