@@ -1,0 +1,66 @@
+header ul {
+    padding-left: 2em;
+    padding-top: 2em;
+    margin-bottom: 0;
+    background-color: rgb(107, 15, 33);
+    display: flex;
+    justify-content: space-around;
+    align-self:center;
+    float: none;
+    }
+
+    body{
+    background-color:rgb(180, 165, 165);
+    }
+
+    .menu{
+        color: white;
+        font-family: Nova Cut;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    @font-face {
+        font-family: Nova Cut;
+        src: url(Nova_Cut/NovaCut-Regular.ttf);
+    }
+
+    .menuarte{
+        display: inline-block;
+        cursor: pointer;
+        font-family: Nova Cut;
+        color: white;
+        position: relative;
+        font-size: 25px;
+    }
+
+    .menuarte:hover .menu-menu {
+        display: block;
+    }
+
+    .menu-menu{
+        background-color: rgb(180, 165, 165);
+        border: 1px solid #ccc;
+        border-radius: 0.3em;
+        box-shadow: 3px 3px 3px;
+        position: absolute;
+        justify-content: space-between;
+        flex-direction: column;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        display: none;
+        font-family: Nova Cut;
+    }
+
+    .menuu{
+        position: relative;
+
+    }
+
+
+    li{
+        padding: 0.2em;
+    }
+
+    .arte-plus, .arte-minus{
+        cursor: pointer;
+    }
