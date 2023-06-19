@@ -65,4 +65,15 @@ header ul {
         cursor: pointer;
     }
 
-   
+    .backdrop{
+        width: 198%;
+        margin-left: 50%;
+        margin-right: 50vh;
+        position: relative;
+        filter: grayscale(1);
+    }
+
+    .backdrop:hover{
+        filter: grayscale(0);
+        cursor: pointer;
+    }
