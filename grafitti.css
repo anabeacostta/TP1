@@ -1,0 +1,14 @@
+header ul {
+    padding-left: 2em;
+    padding-top: 2em;
+    margin-bottom: 0;
+    background-color: rgb(107, 15, 33);
+    display: flex;
+    justify-content: space-around;
+    align-self:center;
+    float: none;
+    }
+
+    body{
+    background-color:rgb(180, 165, 165);
+    }

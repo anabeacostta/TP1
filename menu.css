@@ -65,7 +65,7 @@ header ul {
         cursor: pointer;
     }
 
-    .box{
+    #box{
         display: flex;
         flex-wrap: wrap;
         width: 40%;
@@ -73,18 +73,18 @@ header ul {
 
     }
 
-    .box.move{
+    #box.move{
         position: relative;
         width: 50%;
         height: 50vh;
         filter: grayscale(1);
     }
 
-    .box.move:hover{
+    #box.move:hover{
         filter: grayscale(0);
     }
 
-    .box.move video{
+    #box.move video{
         position: absolute;
         top: 0;
         left: 0;
@@ -96,3 +96,5 @@ header ul {
     .la{
         color: white;
     }
+
+
