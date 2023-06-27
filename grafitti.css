@@ -12,3 +12,56 @@ header ul {
     body{
     background-color:rgb(180, 165, 165);
     }
+    .menu{
+        color: white;
+        font-family: Nova Cut;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    @font-face {
+        font-family: Nova Cut;
+        src: url(Nova_Cut/NovaCut-Regular.ttf);
+    }
+
+    .menuarte{
+        display: inline-block;
+        cursor: pointer;
+        font-family: Nova Cut;
+        color: white;
+        position: relative;
+        font-size: 25px;
+    }
+
+    .menuarte:hover .menu-menu {
+        display: block;
+    }
+
+    .menu-menu{
+        background-color: rgb(180, 165, 165);
+        border: 1px solid #ccc;
+        border-radius: 0.3em;
+        box-shadow: 3px 3px 3px;
+        position: absolute;
+        justify-content: space-between;
+        flex-direction: column;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        display: none;
+        font-family: Nova Cut;
+        list-style-type: none;
+        columns: start;
+    }
+
+    .menuu{
+        position: relative;
+
+    }
+
+    .la{
+        text-decoration: none;
+        margin-right: 28px;
+        
+    }
+    #gra{
+        text-align: justify;
+    }
