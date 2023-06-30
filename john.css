@@ -56,16 +56,3 @@ header ul {
         position: relative;
 
     }
-
-    .la{
-        text-decoration: none;
-        margin-right: 28px;
-        
-    }
-    #gra{
-        text-align: justify;
-        width: 800px;
-        font-size: 15px;
-        float: right;
-        margin-right: 40px;
-    }

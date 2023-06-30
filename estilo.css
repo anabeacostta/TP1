@@ -15,7 +15,7 @@ body{
 
 body:hover{
     cursor: pointer;
-    animation: cor 15s infinite;
+    animation: cor 5s infinite;
 }
 
 @keyframes cor{
@@ -63,3 +63,10 @@ body:hover{
     position: absolute;
     top: 500px;
 }
+
+.relogio{
+    position: absolute;
+    margin-left: 68%;
+    top: 73%;
+}
+
