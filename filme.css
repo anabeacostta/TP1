@@ -62,10 +62,22 @@ header ul {
         margin-right: 28px;
         
     }
+
     #filme{
         text-align: justify;
-        width: 800px;
+        width: 370px;
         font-size: 15px;
+        float: left;
+        margin-left: 19%;
+    }
+
+    #lumiere{
+        width: 33%;
+        margin-top: 2.5%;
         float: right;
-        margin-right: 40px;
+        margin-right: 19%;
+    }
+
+    h1{
+        text-align: center;
     }

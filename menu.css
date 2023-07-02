@@ -9,6 +9,10 @@ header ul {
     float: none;
     }
 
+    header a:hover {
+        color: black;
+    }
+
     body{
     background-color:rgb(180, 165, 165);
     }
@@ -97,5 +101,16 @@ header ul {
     }
 
     .clip{
-        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 2em;
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+        padding: 1.2em;
+        border-radius: 4%;
+        height: 21em;
     }
