@@ -64,8 +64,28 @@ header ul {
     }
     #mus{
         text-align: justify;
-        width: 800px;
+        width: 1000px;
         font-size: 15px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+
+    .texto{
+        width: 180px;
+        margin-left: 27%;
+    }
+
+    .pre{
         float: right;
-        margin-right: 40px;
+        width: 200px;
+        margin-right:27%;
     }

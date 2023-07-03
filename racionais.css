@@ -1,0 +1,151 @@
+header ul {
+    padding-left: 2em;
+    padding-top: 2em;
+    margin-bottom: 0;
+    background-color: rgb(107, 15, 33);
+    display: flex;
+    justify-content: space-around;
+    align-self:center;
+    float: none;
+    }
+
+    body{
+    background-color:black;
+    }
+    .menu{
+        color: white;
+        font-family: Nova Cut;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    @font-face {
+        font-family: Nova Cut;
+        src: url(Nova_Cut/NovaCut-Regular.ttf);
+    }
+
+    .menuarte{
+        display: inline-block;
+        cursor: pointer;
+        font-family: Nova Cut;
+        color: white;
+        position: relative;
+        font-size: 25px;
+    }
+
+    .menuarte:hover .menu-menu {
+        display: block;
+    }
+
+    .menu-menu{
+        background-color: rgb(180, 165, 165);
+        border: 1px solid #ccc;
+        border-radius: 0.3em;
+        box-shadow: 3px 3px 3px;
+        position: absolute;
+        justify-content: space-between;
+        flex-direction: column;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        display: none;
+        font-family: Nova Cut;
+        list-style-type: none;
+        columns: start;
+    }
+
+    .menuu{
+        position: relative;
+
+    }
+
+    .la{
+        text-decoration: none;
+        margin-right: 28px;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+    }
+
+    .texto{
+        color: white;
+        margin-left: 26%;
+        margin-right: 26%;
+    }
+
+    .racionais{
+        width: 300px;
+        margin-top: 9%;
+        margin-left: 26%;
+    }
+
+    #origem{
+        width: 300px;
+        float: right;
+        margin-right: 26%;
+        color: white;
+        margin-top: 4%;
+    }
+
+    #pop{
+        color: white;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    .ri{
+        color: white;
+        width: 300px;
+        margin-left: 26%;
+    }
+
+    .tempo{
+        color: antiquewhite;
+        margin-left: 26%;
+        margin-top: 10%;
+    }
+
+    .imagem{
+        width: 300px;
+        float: right;
+        margin-right: 26%;
+        margin-top: 10%;
+    }
+
+    .ra{
+        color: white;
+        width: 450px;
+        margin-left: 26%;
+    }
+
+    #Sobrevivendo{
+        float: right;
+        margin-right: 26%;
+        width: 300px;
+        margin-top: 30%;
+    }
+
+    #Inferno{
+        float: right;
+        margin-right: 10%;
+        margin-top: 15%;
+        width: 400px;
+    }
+
+    td{
+        border: 1px solid white;
+        color: white;
+    }
+
+    th{
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        color: white;
+        background-color: red;
+    }
+
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        margin-block-end: 10%;
+    }

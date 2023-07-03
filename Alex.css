@@ -63,7 +63,80 @@ header ul {
     }
 
     #Alex{
-        width: 551px;
-        margin-top: 472px;
-        margin-left: 1183px;
-}
+        width: 433px;
+        margin-top: 2.5%;
+        margin-left: 27%;
+    }
+
+    #a{
+        width: 153px;
+        float: right;
+        margin-right: 27%;
+        margin-top: 3%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    #n, h2{
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    #brasil{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .i{
+        width: 300px;
+        margin-top: 3%;
+        margin-left: 27%;
+    }
+
+    #pioneiro{
+        width: 254px;
+        float: right;
+        margin-right: 29%;
+        margin-top: 6.5%;
+    }
+
+    .j{
+        width: 400px;
+        margin-top: 3%;
+        margin-left: 27%;
+    }
+
+    .morte{
+        width: 150px;
+        float: right;
+        margin-right: 29%;
+        margin-top: 5%;
+    }
+    
+    .preta{
+        width: 333px;
+        margin-top: 3%;
+        margin-left: 27%;
+    }
+
+    #bota{
+        width: 300px;
+        float: right;
+        margin-right: 24%;
+    }
+
+    #premio{
+        width: 400px;
+        margin-top: 2.5%;
+        margin-left: 29%;
+    }
+
+    .ganhou{
+        width: 110px;
+        float: right;
+        margin-right: 29%;
+        margin-top: 4%;
+        margin-block-end: 10%;
+    }
