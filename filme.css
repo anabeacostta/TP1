@@ -9,8 +9,12 @@ header ul {
     float: none;
     }
 
+    header a:hover {
+        color: black;
+    }
+
     body{
-    background-color:rgb(180, 165, 165);
+    background-color:black;
     }
     .menu{
         color: white;
@@ -69,6 +73,7 @@ header ul {
         font-size: 15px;
         float: left;
         margin-left: 19%;
+        color: white;
     }
 
     #lumiere{
@@ -80,16 +85,19 @@ header ul {
 
     h1{
         text-align: center;
+        color: white;
     }
 
     #titulo{
         margin-left: 19%;
         margin-top: 40%;
+        color: white;
     }
 
     #central{
         width: 68%;
         margin-left: 19%;
+        color: white;
     }
 
     .do{
@@ -103,16 +111,19 @@ header ul {
         float: right;
         margin-right: 28%;
         margin-top: 5%;
+        color: white;
     }
 
     #da{
         margin-top: 10%;
         margin-left: 19%;
+        color: white;
     }
 
     .comp{
         margin-left: 19%;
         width: 68%;
+        color: white;
     }
 
     .alto{
@@ -124,11 +135,13 @@ header ul {
     #mari{
         margin-top: 10%;
         margin-left: 19%;
+        color: white;
     }
 
     .text{
         margin-left: 19%;
         width: 68%;
+        color: white;
     }
 
     .sinopse{
@@ -136,6 +149,7 @@ header ul {
         float: right;
         margin-right: 28%;
         margin-top: 9%;
+        color: white;
     }
 
     #alto{

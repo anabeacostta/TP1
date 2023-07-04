@@ -101,20 +101,21 @@ header ul {
     }
 
     .clip{
-        display: fixed;
-        flex-wrap: wrap;
         justify-content: center;
         margin-right: 10%;
         margin-left: 10%;
         margin-bottom: 2em;
-        width: 100%;
+        width: 70%;
         box-sizing: border-box;
         display: block;
         padding: 1.2em;
         border-radius: 4%;
         height: 21em;
+        display: inline-block;
     }
     
     .move:active{
         scale: calc(2.0);
     }
+
+   

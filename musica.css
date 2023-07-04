@@ -9,8 +9,12 @@ header ul {
     float: none;
     }
 
+    header a:hover {
+        color: black;
+    }
+
     body{
-    background-color:rgb(180, 165, 165);
+    background-color:black;
     }
     .menu{
         color: white;
@@ -68,24 +72,29 @@ header ul {
         font-size: 15px;
         margin-right: 10%;
         margin-left: 10%;
+        color: white;
     }
 
     h1{
         text-align: center;
+        color: white;
     }
 
     h2{
         margin-left: 10%;
         margin-top: 3%;
+        color: white;
     }
 
     .texto{
         width: 180px;
         margin-left: 27%;
+        color: white;
     }
 
     .pre{
         float: right;
         width: 200px;
         margin-right:27%;
+        color: white;
     }

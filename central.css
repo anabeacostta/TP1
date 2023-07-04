@@ -9,8 +9,12 @@ header ul {
     float: none;
     }
 
+    header a:hover {
+        color: black;
+    }
+
     body{
-    background-color:rgb(180, 165, 165);
+    background-color:black;
     }
     .menu{
         color: white;
@@ -66,6 +70,7 @@ header ul {
     h1{
         text-align: center;
         margin-top: 3%;
+        color: white;
     }
 
     #nasceu{
@@ -73,11 +78,13 @@ header ul {
         margin-top: 7%;
         float: right;
         margin-right: 32%;
+        color: white;
     }
 
     #de{
         text-align: center;
         margin-top: 2.5%;
+        color: white;
         
     }
 
@@ -91,50 +98,55 @@ header ul {
         margin-left: 23%;
         margin-right: 23%;
         margin-top: 1.5%;
+        color: white;
     }
 
     .primeiro{
         width: 400px;
-        margin-left: 33%;
+        margin-left: 18%;
         margin-top: 4%;
+        color: white;
      
     }
 
     #retro{
         width: 345px;
         float: right;
-        margin-top: -11%;
+        margin-top: -15%;
         margin-right: 25%;
     }
 
     #papel{
         width: 435px;
-        float: right;
-        margin-right: 25%;
+        margin-left: 47%;
         margin-top: 6%;
+        color: white;
     }
 
     #muralha{
         width: 433px;
-        margin-left: 25%;
-        margin-top: 10%;
+        margin-right: 10%;
+        margin-top: -40%;
     }
 
     .pioneira{
         width: 400px;
         margin-top: 1%;
-        margin-left: 33%;
+        margin-left: 18%;
+        color: white;
     }
 
     #cinema{
         margin-top: 1.5%;
         margin-left: 23%;
         margin-right: 23%;
+        color: white;
     }
 
     #fu{
         text-align: center;
         margin-top: 11%;
+        color: white;
     }
 
     

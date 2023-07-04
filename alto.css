@@ -9,8 +9,12 @@ header ul {
     float: none;
     }
 
+    header a:hover {
+        color: black;
+    }
+
     body{
-    background-color:rgb(180, 165, 165);
+    background-color:black;
     }
     .menu{
         color: white;
@@ -66,6 +70,7 @@ header ul {
     h1{
         text-align: center;
         margin-top: 3%;
+        color: white;
     }
 
     #bebe{
@@ -79,20 +84,44 @@ header ul {
         width: 200px;
         margin-top: 7%;
         margin-left: 33%;
+        color: white;
     }
 
     h2{
         text-align: center;
         margin-top: 5%;
+        color: white;
     }
 
     #melo{
         margin-top: 1.5%;
         margin-right: 20%;
         margin-left: 20%;
+        color: white;
     }
 
     #seguintes{
         margin-top: 1.5%;
         text-align: center;
+        color: white;
+    }
+
+    td{
+        border: 1px solid white;
+        color: white;
+    }
+
+    th{
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        padding: 1em;
+        text-align: center;
+        color: white;
+        background-color: rgb(33, 4, 49);
+    }
+
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        margin-block-end: 10%;
     }
