@@ -67,3 +67,32 @@ header ul {
         text-align: center;
         margin-top: 3%;
     }
+
+    #bebe{
+        width: 406px;
+        margin-right: 33%;
+        float: right;
+        margin-top: 2.5%;
+    }
+
+    #passos{
+        width: 200px;
+        margin-top: 7%;
+        margin-left: 33%;
+    }
+
+    h2{
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #melo{
+        margin-top: 1.5%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    #seguintes{
+        margin-top: 1.5%;
+        text-align: center;
+    }

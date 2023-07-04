@@ -67,3 +67,30 @@ header ul {
         text-align: center;
         margin-top: 3%;
     }
+
+    #cons{
+        text-align: center;
+    }
+
+    #var{
+        width: 214px;
+        margin-top: 1.5%;
+        margin-left: 37.5%;
+    }
+
+    #nas{
+        float: right;
+        margin-right: 37.5%;
+        width: 230px;
+        margin-top: 7%;
+    }
+
+    #inicio{
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    h2{
+        text-align: center;
+        margin-top: 3%;
+    }

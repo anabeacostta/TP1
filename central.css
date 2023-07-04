@@ -95,28 +95,46 @@ header ul {
 
     .primeiro{
         width: 400px;
-        float: right;
-        margin-right: 20%;
+        margin-left: 33%;
+        margin-top: 4%;
+     
     }
 
     #retro{
         width: 345px;
-        margin-left: 20%;
-        margin-top: 1.1%;
+        float: right;
+        margin-top: -11%;
+        margin-right: 25%;
     }
 
-    .papel{
+    #papel{
         width: 435px;
         float: right;
-        margin-left: 33%;
-        margin-top: 4%;
+        margin-right: 25%;
+        margin-top: 6%;
     }
 
     #muralha{
         width: 433px;
-        margin-right: 33%;
+        margin-left: 25%;
         margin-top: 10%;
     }
 
+    .pioneira{
+        width: 400px;
+        margin-top: 1%;
+        margin-left: 33%;
+    }
+
+    #cinema{
+        margin-top: 1.5%;
+        margin-left: 23%;
+        margin-right: 23%;
+    }
+
+    #fu{
+        text-align: center;
+        margin-top: 11%;
+    }
 
     
