@@ -1,0 +1,122 @@
+header ul {
+    padding-left: 2em;
+    padding-top: 2em;
+    margin-bottom: 0;
+    background-color: rgb(107, 15, 33);
+    display: flex;
+    justify-content: space-around;
+    align-self:center;
+    float: none;
+    }
+
+    body{
+    background-color:rgb(180, 165, 165);
+    }
+    .menu{
+        color: white;
+        font-family: Nova Cut;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    @font-face {
+        font-family: Nova Cut;
+        src: url(Nova_Cut/NovaCut-Regular.ttf);
+    }
+
+    .menuarte{
+        display: inline-block;
+        cursor: pointer;
+        font-family: Nova Cut;
+        color: white;
+        position: relative;
+        font-size: 25px;
+    }
+
+    .menuarte:hover .menu-menu {
+        display: block;
+    }
+
+    .menu-menu{
+        background-color: rgb(180, 165, 165);
+        border: 1px solid #ccc;
+        border-radius: 0.3em;
+        box-shadow: 3px 3px 3px;
+        position: absolute;
+        justify-content: space-between;
+        flex-direction: column;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        display: none;
+        font-family: Nova Cut;
+        list-style-type: none;
+        columns: start;
+    }
+
+    .menuu{
+        position: relative;
+
+    }
+
+    .la{
+        text-decoration: none;
+        margin-right: 28px;
+        
+    }
+    
+    h1{
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    #nasceu{
+        width: 200px;
+        margin-top: 7%;
+        float: right;
+        margin-right: 32%;
+    }
+
+    #de{
+        text-align: center;
+        margin-top: 2.5%;
+        
+    }
+
+    .fe{
+        width: 250px;
+        margin-left: 32%;
+        margin-top: 4.5%;
+    }
+
+    .antes{
+        margin-left: 23%;
+        margin-right: 23%;
+        margin-top: 1.5%;
+    }
+
+    .primeiro{
+        width: 400px;
+        float: right;
+        margin-right: 20%;
+    }
+
+    #retro{
+        width: 345px;
+        margin-left: 20%;
+        margin-top: 1.1%;
+    }
+
+    .papel{
+        width: 435px;
+        float: right;
+        margin-left: 33%;
+        margin-top: 4%;
+    }
+
+    #muralha{
+        width: 433px;
+        margin-right: 33%;
+        margin-top: 10%;
+    }
+
+
+    
