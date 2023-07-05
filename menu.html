@@ -1,60 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Janelas para a Imaginação</title>
-    <link rel="stylesheet" href="menu.css" />
 
-  </head>
-  <body>
-  </body>
-  <body>
-    <header>
-      <nav >
-        <ul>
-          <a class="menu" href="menu.html">Home</a>
-          <a class="menu" href="bibliografia.html">Bibliografia</a>
-          <div class="menuu" data-aberto="false">
-            <span class="menuarte">
-                Arte
-                <ul class="menu-menu">
-                  <li><a href="Grafitti.html" class="la" >Grafitti</a></li>
-                  <li><a href="filme.html" class="la">Filme</a></li>
-                  <li><a href="musica.html" class="la">Música</a></li>
-                </ul>
-            </span>
-          </div>
-        </ul>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Janelas para a Imaginação</title>
+  <link rel="stylesheet" href="menu.css" />
 
-    <div class="box">
-      <div class="move">
-      <video src="Marighella _ Trailer Oficial.mp4" type="video/mp4" loop class="clip" muted></video>
-      </div>
-      <div class="move">
-      <video src="Marte Um _ Trailer Exclusivo.mp4" type="video/mp4" loop class="clip" muted></video>
+</head>
+
+<body>
+</body>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <a class="menu" href="menu.html">Home</a>
+        <a class="menu" href="bibliografia.html">Bibliografia</a>
+        <div class="menuu" data-aberto="false">
+          <span class="menuarte">
+            Arte
+            <ul class="menu-menu">
+              <li><a href="Grafitti.html" class="la">Grafitti</a></li>
+              <li><a href="filme.html" class="la">Filme</a></li>
+              <li><a href="musica.html" class="la">Música</a></li>
+            </ul>
+          </span>
+        </div>
+      </ul>
+  </header>
+
+  <div class="box">
+    <div class="move">
+      <video id="a" src="Marighella _ Trailer Oficial.mp4" type="video/mp4" loop class="clip" muted></video>
     </div>
     <div class="move">
-      <video src="videoplayback.mp4" type="video/mp4" loop class="clip" muted></video>
+      <video id="b" src="Marte Um _ Trailer Exclusivo.mp4" type="video/mp4" loop class="clip" muted></video>
     </div>
     <div class="move">
-      <video src="Negro Drama - Nada Como Um Dia Após O Outro Dia (Chora Agora).mp4" type="video/mp4" loop class="clip" muted></video>
+      <video id="c" src="videoplayback.mp4" type="video/mp4" loop class="clip" muted></video>
     </div>
+    <div class="move">
+      <video id="g" src="Negro Drama - Nada Como Um Dia Após O Outro Dia (Chora Agora).mp4" type="video/mp4" loop class="clip"
+        muted></video>
     </div>
+  </div>
 
-    <script>
-      const clip = document.querySelectorAll('.clip');
-      for(let i = 0; i<clip.length; i++){
-        clip[i].addEventListener('mouseenter', function(e){
-          clip[i].play()
-        })
+  <script>
+    const clip = document.querySelectorAll('.clip');
+    for (let i = 0; i < clip.length; i++) {
+      clip[i].addEventListener('mouseenter', function (e) {
+        clip[i].play()
+      })
 
-        clip[i].addEventListener('mouseout', function(e){
-          clip[i].pause()
-        })
-      }
-    </script>
-  </body>
+      clip[i].addEventListener('mouseout', function (e) {
+        clip[i].pause()
+      })
+    }
+  </script>
+</body>
+
 </html>
